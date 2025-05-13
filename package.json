@@ -13,6 +13,7 @@
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.4",
+    "aos": "^2.3.4",
     "chart.js": "^4.4.3",
     "classnames": "^2.5.1",
     "primereact": "^10.7.0",
