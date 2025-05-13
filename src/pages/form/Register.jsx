@@ -11,8 +11,8 @@ const Register = () => {
            <div className='w-[100%] h-full relative flex items-end'>
              
              <div className='h-[50vh] w-full rounded-t-3xl shadow-md bg-white'>
-                <h2 className='text-lg text-center font-semibold pt-6'>Lorem ipsum dolor sit amet consectetur <br/>adipisicing elit.</h2>
-                <h2 className='text-sm text-center mb-7 pt-6'>Lorem ipsum dolor sit amet consectetur <br/>adipisicing elit.</h2>
+                <h2 className='text-lg text-center font-semibold pt-10'>Your Ultimate <span className='font-bold'>Destination For Home Appliace</span></h2>
+                <p className='text-[13px] text-center font-semibold mb-7 pt-6'>Shop from a wide range of high-quality home<br/> Appliance at unbeatable price</p>
 
                 
                 <div className='px-5 mb-8'><Link to={"/signin"}><Button label={"Register Now"}/></Link></div>
