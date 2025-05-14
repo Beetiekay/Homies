@@ -46,11 +46,11 @@ const Signin = () => {
              <p className='text-center text-sm font-semibold mb-2'>Don't Have An Account? <Link to={"/signup"} className='font-bold text-kleinblue'>Sign-Up</Link></p>
               <p className='font-semibold text-xs text-center mb-2'>OR</p>
              <div>
-              <button className=' w-full py-3 px-2 justify-around font-semibold border mb-2 flex items-center outline-none hover:scale-95 hover:opacity-60 text-sm  rounded-lg' >
+              <button className=' w-full py-3 px-2 justify-center gap-5 font-semibold border mb-2 flex items-center outline-none hover:scale-95 hover:opacity-60 text-sm  rounded-lg' >
                 <img src={email} className='w-[10%]'/>
                 <h1>Continue with Gmail</h1>
               </button>
-              <button className=' w-full py-3 px-2 justify-around font-semibold border flex items-center outline-none hover:scale-95 hover:opacity-60 text-sm  rounded-lg' >
+              <button className=' w-full py-3 px-2 justify-center gap-2 font-semibold border flex items-center outline-none hover:scale-95 hover:opacity-60 text-sm  rounded-lg' >
                  <FaFacebook size={20} className='text-darknightblue'/>
                 <h1>Continue with Facebook</h1>
               </button>
