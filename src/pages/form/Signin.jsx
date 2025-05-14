@@ -19,7 +19,7 @@ const Signin = () => {
   return (
     <div className='w-full flex justify-center bg-kleinblue fixed top-0'>
        <div className='lg:w-[25%] md:w-[70%] bg-white relative w-full h-[100vh]'>
-         <h1 className='pt-2 mb-4 font-semibold text-center text-sm'>WELCOME TO</h1>
+         <h1 className='pt-2 mb-4 font-semibold text-center text-sm'>Welcome to</h1>
            <div className='w-[100%] flex justify-center absolute'><img src={logo} className='w-56 relative -top-28 left-5'/></div>
          <div className='w-full h-28 absolute top-20'>
           <div className=''>
