@@ -36,12 +36,12 @@ const Signin = () => {
           <form data-aos="fade-up" className='w-[100%] h-[80vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
             <h1 className='text-2xl -mt-4 text-darknightblue  text-center relative top-8 mb-8 font-semibold'>Login</h1>
             <div className='mb-4'>
-                <label className='font-semibold mb-2 relative -top-1'>Username</label>
+                <label className='font-semibold text-darknightblue mb-2 relative -top-1'>Username</label>
                <Input placeholder="Username"/>
             </div>
 
             <div className='mb-4'>
-                <label className='font-semibold relative -top-1'>Password</label>
+                <label className='font-semibold text-darknightblue relative -top-1'>Password</label>
                <Input placeholder="Enter Password" type={showpass ? "text" : "password"} autoComplete='off'/>
                <div onClick={() => setShowpass(!showpass)} className='relative -top-[2.6rem] translate-y-1/2 cursor-pointer text-lg opacity-100'>
                       {showpass ? <FaRegEye size={22} className='absolute right-2 top-2'/> : <FaRegEyeSlash size={22} className='absolute right-2 top-2'/>}

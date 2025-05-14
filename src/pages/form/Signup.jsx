@@ -25,7 +25,7 @@ const Signup = () => {
          <h1 className='pt-2 mb-2 font-semibold text-center text-xl'>Create A New Account</h1>
          
          <form  className='h-[100vh] flex items-end w-full px-4'>
-          <div data-aos="fade-up" className='w-[100%] h-[95vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
+          <div data-aos="fade-up" className='w-[100%] h-[98vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
             <h1 className='text-2xl -mt-4  text-center relative top-8 mb-8 font-semibold'>Sign-Up</h1>
             <div className='mb-4'>
                 <label className='font-semibold mb-2 relative -top-1'>Username</label>
@@ -33,12 +33,12 @@ const Signup = () => {
             </div>
 
             <div className='mb-4'>
-                <label className='font-semibold mb-2 relative -top-1'>Mobile no</label>
+                <label className='font-semibold text-darknightblue mb-2 relative -top-1'>Mobile no</label>
                <Input placeholder="Enter Mobile no"/>
             </div>
 
             <div className='mb-4'>
-                 <label className='font-semibold relative -top-1'>Password</label>
+                 <label className='font-semibold text-darknightblue relative -top-1'>Password</label>
                  <Input placeholder="Enter Password" type={showpass ? "text" : "password"} autoComplete='off'/>
                   <div onClick={() => setShowpass(!showpass)} className='relative -top-[2.6rem] translate-y-1/2 cursor-pointer text-lg opacity-100'>
                    {showpass ? <FaRegEye size={22} className='absolute right-2 top-2'/> : <FaRegEyeSlash size={22} className='absolute right-2 top-2'/>}
@@ -46,7 +46,7 @@ const Signup = () => {
             </div>
 
             <div className='mb-4'>
-                 <label className='font-semibold relative -top-1'>Confirm Password</label>
+                 <label className='font-semibold relative text-darknightblue -top-1'>Confirm Password</label>
                  <Input placeholder="Re-Enter Password" type={showpass ? "text" : "password"} autoComplete='off'/>
                   <div onClick={() => setShowpass(!showpass)} className='relative -top-[2.6rem] translate-y-1/2 cursor-pointer text-lg opacity-100'>
                    {showpass ? <FaRegEye size={22} className='absolute right-2 top-2'/> : <FaRegEyeSlash size={22} className='absolute right-2 top-2'/>}
