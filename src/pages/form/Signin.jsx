@@ -43,8 +43,8 @@ const Signin = () => {
             <div className='mb-4'>
                 <label className='font-semibold relative -top-1'>Password</label>
                <Input placeholder="Enter Password" type={showpass ? "text" : "password"} autoComplete='off'/>
-               <div onClick={() => setShowpass(!showpass)} className='relative left-60 -top-[2.6rem] translate-y-1/2 cursor-pointer text-lg opacity-100'>
-                      {showpass ? <FaRegEye size={22}/> : <FaRegEyeSlash size={22}/>}
+               <div onClick={() => setShowpass(!showpass)} className='relative -top-[2.6rem] translate-y-1/2 cursor-pointer text-lg opacity-100'>
+                      {showpass ? <FaRegEye size={22} className='absolute right-2 top-2'/> : <FaRegEyeSlash size={22} className='absolute right-2 top-2'/>}
                </div>
             </div>
 
