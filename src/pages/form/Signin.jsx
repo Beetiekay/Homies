@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from "../../assets/logo1.png"
 import bag1 from "../../assets/cart1.png"
 import bag2 from "../../assets/cart2.png"
@@ -7,12 +7,17 @@ import Input from '../../components/Input'
 import { Link } from 'react-router-dom'
 import Button from '../../components/Button'
 import {FaFacebook} from "react-icons/fa"
+import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa6';
+
 
 //aos
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 const Signin = () => {
+ const [showpass, setShowpass] = useState(false);
+  
   useEffect(() => {
         AOS.init({duration:1200})
      }) 
@@ -29,7 +34,7 @@ const Signin = () => {
          </div>
          <div className='h-[100vh] flex items-end w-full px-4'>
           <div data-aos="fade-up" className='w-[100%] h-[80vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
-            <h1 className='text-2xl -mt-4  text-center relative top-8 mb-8 font-semibold'>Login</h1>
+            <h1 className='text-2xl -mt-4 text-darknightblue  text-center relative top-8 mb-8 font-semibold'>Login</h1>
             <div className='mb-4'>
                 <label className='font-semibold mb-2 relative -top-1'>Username</label>
                <Input placeholder="Username"/>
@@ -37,7 +42,10 @@ const Signin = () => {
 
             <div className='mb-4'>
                 <label className='font-semibold relative -top-1'>Password</label>
-               <Input placeholder="Enter Password"/>
+               <Input placeholder="Enter Password" type={showpass ? "text" : "password"} autoComplete='off'/>
+               <div onClick={() => setShowpass(!showpass)} className='relative left-60 -top-[2.6rem] translate-y-1/2 cursor-pointer text-lg opacity-100'>
+                      {showpass ? <FaRegEye size={22}/> : <FaRegEyeSlash size={22}/>}
+               </div>
             </div>
 
            <div className='flex justify-center mb-2'><Link className='text-kleinblue font-semibold text-sm'>Forgot password?</Link></div> 
