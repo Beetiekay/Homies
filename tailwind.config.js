@@ -25,6 +25,7 @@ export default {
      'darknightblue':'#003366',
      'kleinblue':'#2976bc',
      'applegreen':'#72ae00',
+     'gray':'#636a6f',
      'red':'#ff0000'
     },
     // screens:{

@@ -49,7 +49,7 @@ const Signin = () => {
             </div>
 
            <div className='flex justify-center mb-2'><Link className='text-kleinblue font-semibold text-sm'>Forgot password?</Link></div> 
-            <div className='font-semibold mb-4'><Button type="submit" label={"Login"}/></div>
+            <div className='font-semibold mb-4'><Link to={"/verify"}><Button type="submit" label={"Login"}/></Link></div>
              <div className='opacity-60 mb-3'><hr/></div>
              <p className='text-center text-sm font-semibold mb-2'>Don't Have An Account? <Link to={"/signup"} className='font-bold text-kleinblue'>Sign-Up</Link></p>
               <p className='font-semibold text-xs text-center mb-2'>OR</p>
