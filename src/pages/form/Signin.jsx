@@ -33,7 +33,7 @@ const Signin = () => {
            </div>
          </div>
          <div className='h-[100vh] flex items-end w-full px-4'>
-          <div data-aos="fade-up" className='w-[100%] h-[80vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
+          <form data-aos="fade-up" className='w-[100%] h-[80vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
             <h1 className='text-2xl -mt-4 text-darknightblue  text-center relative top-8 mb-8 font-semibold'>Login</h1>
             <div className='mb-4'>
                 <label className='font-semibold mb-2 relative -top-1'>Username</label>
@@ -49,7 +49,7 @@ const Signin = () => {
             </div>
 
            <div className='flex justify-center mb-2'><Link className='text-kleinblue font-semibold text-sm'>Forgot password?</Link></div> 
-            <div className='font-semibold mb-4'><Button label={"Login"}/></div>
+            <div className='font-semibold mb-4'><Button type="submit" label={"Login"}/></div>
              <div className='opacity-60 mb-3'><hr/></div>
              <p className='text-center text-sm font-semibold mb-2'>Don't Have An Account? <Link to={"/signup"} className='font-bold text-kleinblue'>Sign-Up</Link></p>
               <p className='font-semibold text-xs text-center mb-2'>OR</p>
@@ -63,7 +63,7 @@ const Signin = () => {
                 <h1>Continue with Facebook</h1>
               </button>
              </div>
-          </div>
+          </form>
          </div>
        </div>
     </div>
