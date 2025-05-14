@@ -19,14 +19,14 @@ const Register = () => {
              
 
              <div  className='h-[50vh] w-full rounded-t-3xl shadow-md bg-white'>
-                <h2 className='text-lg text-center font-semibold pt-10'>Your Ultimate <span className='font-bold'>Destination For Home Appliance</span></h2>
+                <h2 className='text-xl text-center font-semibold pt-10'>Your Ultimate <span className='font-bold'>Destination For Home<br/> Appliance</span></h2>
                 <p className='text-[13px] text-center font-semibold mb-7 pt-6'>Shop from a wide range of high-quality home<br/> Appliance at unbeatable price</p>
           
                 
-                <Link to={"/signin"}><div className='px-5 font-semibold mb-8'><Button label={"Explore Now"}/></div></Link>
+                <Link ><div className='px-5 font-semibold mb-8'><Button label={"Explore Now"}/></div></Link>
 
                 
-                    <p className='text-center text-sm font-semibold'>Already Have An Account? <Link className='font-bold text-kleinblue'>Log-in</Link></p>
+                    <p className='text-center text-sm font-semibold'>Already Have An Account? <Link to={"/signin"} className='font-bold text-kleinblue'>Log-in</Link></p>
              </div>
            </div>
         </div>
