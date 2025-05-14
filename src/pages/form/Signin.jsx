@@ -19,16 +19,16 @@ const Signin = () => {
   return (
     <div className='w-full flex justify-center bg-kleinblue fixed top-0'>
        <div className='lg:w-[25%] md:w-[70%] bg-white relative w-full h-[100vh]'>
-         <h1 className='pt-2 mb-2 font-semibold text-center text-xl'>WELCOME TO</h1>
-           <div className='w-[100%] flex justify-center absolute'><img src={logo} className='w-64 relative -top-28 left-5'/></div>
-         <div className='w-full h-28 absolute top-28'>
+         <h1 className='pt-2 mb-4 font-semibold text-center text-sm'>WELCOME TO</h1>
+           <div className='w-[100%] flex justify-center absolute'><img src={logo} className='w-56 relative -top-28 left-5'/></div>
+         <div className='w-full h-28 absolute top-20'>
           <div className=''>
            <div className='flex justify-center relative -top-6'><img src={bag1} className='w-32'/></div>
           <div className='flex justify-center'><img src={bag2} className='w-20 relative -top-24'/></div>
            </div>
          </div>
          <div className='h-[100vh] flex items-end w-full px-4'>
-          <div data-aos="fade-up" className='w-[100%] h-[75vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
+          <div data-aos="fade-up" className='w-[100%] h-[80vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
             <h1 className='text-2xl -mt-4  text-center relative top-8 mb-8 font-semibold'>Login</h1>
             <div className='mb-4'>
                 <label className='font-semibold mb-2 relative -top-1'>Username</label>
