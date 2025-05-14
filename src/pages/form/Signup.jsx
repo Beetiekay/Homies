@@ -26,7 +26,7 @@ const Signup = () => {
          
          <form  className='h-[100vh] flex items-end w-full px-4'>
           <div data-aos="fade-up" className='w-[100%] h-[100vh] rounded-t-3xl px-6 bg-darknightblue bg-opacity-10'>
-            <h1 className='text-2xl -mt-4  text-center relative top-8 mb-8 font-semibold'>Sign-Up</h1>
+            <h1 className='text-2xl -mt-4t text-center relative top-8 mb-8 font-semibold'>Sign-Up</h1>
             <div className='mb-4'>
                 <label className='font-semibold text-darknightblue mb-2 relative -top-1'>Username</label>
                <Input placeholder="Username"/>
