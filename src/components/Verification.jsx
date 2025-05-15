@@ -9,23 +9,23 @@ const Verification = () => {
             {/* upper */}
             <div>
             <div className='flex justify-center'>
-               <div className='w-[85%] pt-5 relative top-2 flex justify-between items-center px-1'>
+               <div className='w-[90%] pt-5 relative top-2 flex justify-between items-center px-1'>
                 <p className='font-semibold text-sm '>OTP verification</p>
-                <p className='font-semibold text-sm opacity-80 '>Languange</p>
-                <p className='font-semibold text-sm opacity-80 '>Succcess</p>
+                <p className='font-semibold text-sm relative right-4 opacity-80 '>Languange</p>
+                <p className='font-semibold text-sm opacity-80 '>Welcome</p>
             </div> 
             </div>
             
             <div className='relative'>
             <div className='flex h-16 py-6 justify-center items-center'>
-              <div className='h-[0.2vh] w-[75%]  bg-gray rounded-sm '>
+              <div className='h-[0.2vh] w-[80%]  bg-gray rounded-sm '>
              </div>    
             </div> 
 
              <div className='w-full flex h-16 absolute top-0 py-6 justify-center items-center'>
-              <div className='h-[2vh] w-[75%] relative flex justify-between items-center rounded-sm'>
+              <div className='h-[2vh] w-[80%] relative flex justify-between items-center rounded-sm'>
                 <div className='w-5 h-5 bg-white border-4 rounded-full border-darknightblue'></div>
-                <div className='w-5 h-5 bg-white border-4 border-gray rounded-full'></div>
+                <Link to={"/language"}><div className='w-5 h-5 bg-white border-4 border-gray rounded-full'></div></Link>
                 <div className='w-5 h-5 bg-white border-4 border-gray rounded-full '></div>
              </div>  
             </div>
@@ -43,9 +43,9 @@ const Verification = () => {
               <input type='text' maxLength="1" className='w-6 border-b-2 border-gray p-3 px-8  outline-none'/>
              </div>
 
-           <p className='text-center text-sm font-semibold mb-5'>Don't You Any Code? <Link className='font-bold text-kleinblue'>Re-send OTP</Link></p>
+            <p className='text-center text-sm font-semibold mb-5'>Don't You Any Code? <Link className='font-bold text-kleinblue'>Re-send OTP</Link></p>
              
-             <div className='px-6'><Button label={"Verify"}/></div>
+             <div className='px-6'><Link to={"/language"}><Button label={"Verify"}/></Link></div>
         </div>
     </div>
   )
