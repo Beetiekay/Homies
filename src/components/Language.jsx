@@ -36,7 +36,7 @@ const Language = () => {
              <div className='px-6 py-8'>
                 <div className='flex justify-between items-center mb-4'>
                     <p className='text-sm font-semibold'>Choose Your Language</p>
-                    <Link className='text-darknightblue font-semibold text-sm'>Skip</Link>
+                    <Link to={"/welcome"} className='text-darknightblue font-semibold text-sm'>Skip</Link>
                 </div>
 
                 <select className='mb-4 p-2 py-2 outline-none rounded-lg w-full border border-kleinblue text-darknightblue'>
@@ -47,7 +47,7 @@ const Language = () => {
                     <option>Inya muranci</option>
                 </select>
 
-               <div className='w-full px-6 absolute bottom-6 left-0 right-0'><Button label={"Continue"} /></div> 
+              <Link to={"/welcome"}><Button label={"Continue"} /></Link> 
              </div>
         </div>
     </div>
