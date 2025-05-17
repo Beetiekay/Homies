@@ -38,8 +38,8 @@ const Welcome = () => {
             <h1  className=' text-3xl'>Welcome to</h1>
             <img src={logo} className='relative -top-32 right-4'/>
             <p className='text-[16px] relative -top-64  pt-6'>Shop from a wide range of high-quality home Appliance at unbeatable price</p>
-            <div className='flex justify-center -mt-10'>
-                <Link to={"/home"}><button className='outline-none shadow-md scale-90 animate-spin hover:opacity-40 p-5 rounded-full bg-darknightblue text-white'><FaChevronRight size={25} className='translate-x-3 animate-spin duration-700'/></button></Link>
+            <div className='flex justify-center -mt-28'>
+                <Link to={"/home"}><button className='outline-none shadow-md scale-90 hover:opacity-40 p-5 rounded-full bg-darknightblue text-white'><FaChevronRight size={35} /></button></Link>
             </div>
          </div>
 
