@@ -34,19 +34,19 @@ const Home = () => {
 
              <div className='flex justify-between mb-4'>
 
-              <div className='w-20 h-20 border-red bg-opacity-50 bg-darknightblue hover:scale-95 flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20 border-red  hover:scale-95 flex justify-center items-center rounded-full border'>
                 <h1 className='text-lg font-bold'>SONY</h1>
               </div>
 
-              <div className='w-20 h-20 border-red bg-opacity-50 bg-darknightblue relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20 border-red  relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
                 <img src={round1} className='w-14'/>
               </div>
 
-              <div className='w-20 h-20 bg-opacity-50 border-red bg-darknightblue relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20  border-red  relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
                 <img src={round2} className='w-14'/>
               </div>
 
-              <div className='w-20 h-20 bg-opacity-50 bg-darknightblue border-red relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20  border-red relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
                 <img src={round3} className='w-14'/>
               </div>
 
