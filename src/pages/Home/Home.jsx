@@ -14,8 +14,8 @@ const Home = () => {
    
   return (
     <div className='w-full h-[100vh] flex justify-center bg-kleinblue fixed top-0'>
-        <div  className='lg:w-[25%] md:w-[70%] py-8 bg-white relative w-full overflow-y-auto mb-6 h-[100vh]'>
-          <div data-aos="fade-up" className='w-full h-[100vh] px-3'>
+        <div  className='lg:w-[25%] md:w-[70%]  py-8 bg-white relative w-full overflow-y-auto mb-6 h-[100vh]'>
+          <div data-aos="fade-up" className='w-full h-[100vh] overflow-hidden mb-28 px-3'>
             <div className='flex justify-around gap-3 mb-6'>
               <div className='flex items-center gap-2 px-2 py-2 bg-whitegray rounded-3xl shadow-md'>
                 <FaSearch size={20} className='hover:scale-110 hover:opacity-40'/>
@@ -53,7 +53,7 @@ const Home = () => {
              
              </div>
               
-              <div>
+              <div className=''>
                 <div data-aos="zoom-in" className='w-[100%] h-[20vh] mb-4 overflow-hidden relative bg-red bg-opacity-55 rounded-2xl'>
                   {/* Animated */}
                   <div className='flex justify-between absolute'>
