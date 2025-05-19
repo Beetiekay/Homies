@@ -69,7 +69,7 @@ const Home = () => {
                       <img src={image2} className='w-[70%] mt-8 ml-3'/>
                       <div className='absolute top-6 left-9'>
                         <h1 className='text-2xl mb-4 -ml-2 -mt-3 font-bold text-red'>AADI</h1>
-                        <p className='bg-red text-sm p-1 -mt-2 text-white rounded-xl mb-2 font-semibold -ml-3'>Discount</p>
+                        <p className='bg-red text-sm p-1 -mt-2 text-white rounded-xl mb-4 font-semibold -ml-3'>Discount</p>
                         <h1 className='text-2xl font-bold text-red'>Sale</h1>
                       </div>
                      </div>
