@@ -17,17 +17,17 @@ const Card = () => {
     <div>
       {/* search */}
          <div className='flex justify-around gap-3 mb-6 absolute top-0'>
-        <div className='flex items-center gap-2 px-2 py-2 bg-whitegray rounded-3xl shadow-md'>
-            <FaSearch size={20} className='hover:scale-110 hover:opacity-40'/>
+        <div className='flex items-center border border-darknightblue gap-2 px-2 py-2 bg-whitegray rounded-3xl shadow-md'>
+            <FaSearch size={20} className='hover:scale-110 hover:opacity-40 text-darknightblue'/>
             <input type='text' name='search' placeholder=' Search Your Appliance'
             value={filter}
             onChange={searchText.bind(this)}
-             className='p-2 bg-whitegray outline-none font-semibold text-kleinblue'/>
-            <FaMicrophone size={20} className='hover:scale-110 hover:opacity-40'/>
+             className='p-2  bg-whitegray outline-none font-semibold text-kleinblue'/>
+            <FaMicrophone size={20} className='hover:scale-110 hover:opacity-40 text-darknightblue'/>
           </div>
           <div className='flex items-center gap-2'>
-            <FaCamera size={20} className='hover:opacity-40'/>
-            <FaHeart size={20} className='hover:text-red hover:scale-110'/>
+            <FaCamera size={20} className='hover:opacity-40 text-darknightblue'/>
+            <FaHeart size={20} className='hover:text-red hover:scale-110 text-darknightblue'/>
           </div>
         </div>
         {/* search */}
@@ -36,7 +36,7 @@ const Card = () => {
          return(
          <div >
           <div className='hover:bg-opacity-30 mb-2 p-2 rounded-lg bg-darknightblue hover:scale-110'>
-              <button className='p-3 bg-red bg-opacity-30 rounded-2xl'><img src={item.img} /></button>
+              <button className='p-3 bg-whitegray bg-opacity-30 rounded-2xl'><img src={item.img} /></button>
               <div className='w-[100%]'>
                <h1 className='text-xs font-bold text-white w-screen'>{item.title}</h1>
                <p className='opacity-75 text-white font-semibold text-xs dark:opacity-40'>{item.pharagh}</p>
@@ -49,7 +49,7 @@ const Card = () => {
                 <button className='bg-whitegray rounded-xl p-1 text-white'><h3 className='text-[12px] font-semibold text-darknightblue'>{item.free}</h3></button> 
                </div>
               </div>  
-              </div>
+          </div>
             )
           })}
     </div>
