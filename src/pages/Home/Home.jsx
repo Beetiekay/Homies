@@ -14,7 +14,7 @@ const Home = () => {
    
   return (
     <div className='w-full h-[100vh] flex justify-center bg-kleinblue fixed top-0'>
-        <div  className='lg:w-[25%] md:w-[70%]  py-8 bg-white relative w-full overflow-y-auto mb-6 h-[100vh]'>
+        <div  className='lg:w-[25%] md:w-[70%] overflow-hidden  py-8 bg-white relative w-full overflow-y-auto mb-6 h-[100vh]'>
           <div data-aos="fade-up" className='w-full h-[100vh] mb-28 px-3'>
             <div className='flex justify-around gap-3 mb-6'>
               <div className='flex items-center gap-2 px-2 py-2 bg-whitegray rounded-3xl shadow-md'>
