@@ -22,7 +22,7 @@ const Card = () => {
             <input type='text' name='search' placeholder=' Search Your Appliance'
             value={filter}
             onChange={searchText.bind(this)}
-             className='p-2 bg-whitegray outline-none text-kleinblue'/>
+             className='p-2 bg-whitegray outline-none font-semibold text-kleinblue'/>
             <FaMicrophone size={20} className='hover:scale-110 hover:opacity-40'/>
           </div>
           <div className='flex items-center gap-2'>
