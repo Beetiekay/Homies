@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className='w-full h-[100vh] flex justify-center bg-kleinblue fixed top-0'>
         <div  className='lg:w-[25%] md:w-[70%]  py-8 bg-white relative w-full overflow-y-auto mb-6 h-[100vh]'>
-          <div data-aos="fade-up" className='w-full h-[100vh] overflow-hidden mb-28 px-3'>
+          <div data-aos="fade-up" className='w-full h-[100vh] mb-28 px-3'>
             <div className='flex justify-around gap-3 mb-6'>
               <div className='flex items-center gap-2 px-2 py-2 bg-whitegray rounded-3xl shadow-md'>
                 <FaSearch size={20} className='hover:scale-110 hover:opacity-40'/>
@@ -34,19 +34,19 @@ const Home = () => {
 
              <div className='flex justify-between mb-4'>
 
-              <div className='w-20 h-20 border-red  hover:scale-95 flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20 border-darknightblue  hover:scale-95 flex justify-center items-center rounded-full border'>
                 <h1 className='text-lg font-bold'>SONY</h1>
               </div>
 
-              <div className='w-20 h-20 border-red  relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20 border-darknightblue  relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
                 <img src={round1} className='w-14'/>
               </div>
 
-              <div className='w-20 h-20  border-red  relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20  border-darknightblue  relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
                 <img src={round2} className='w-14'/>
               </div>
 
-              <div className='w-20 h-20  border-red relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
+              <div className='w-20 h-20  border-darknightblue relative overflow-hidden hover:scale-95  flex justify-center items-center rounded-full border'>
                 <img src={round3} className='w-14'/>
               </div>
 
@@ -54,7 +54,7 @@ const Home = () => {
              </div>
               
               <div className=''>
-                <div data-aos="zoom-in" className='w-[100%] h-[20vh] mb-4 overflow-hidden relative bg-red bg-opacity-55 rounded-2xl'>
+                <div data-aos="zoom-in" className='w-[100%] h-[20vh] mb-4 overflow-hidden relative bg-darknightblue bg-opacity-55 rounded-2xl'>
                   {/* Animated */}
                   <div className='flex justify-between absolute'>
                     <div className='w-4 h-4 rounded-full bg-darknightblue animate-ping'></div>
@@ -83,6 +83,7 @@ const Home = () => {
 
                 <p className=' text-lg font-semibold mb-2'>Recommended For You</p>
                 <div><Card/></div>
+                <div className='w-[100%] h-[10vh]'></div>
               </div>
           </div>
           <div><Navigation/></div>
