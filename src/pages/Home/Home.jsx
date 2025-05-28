@@ -16,19 +16,8 @@ const Home = () => {
     <div className='w-full h-[100vh] flex justify-center bg-kleinblue fixed top-0'>
         <div  className='lg:w-[25%] md:w-[70%] overflow-hidden  py-8 bg-white relative w-full overflow-y-auto mb-6 h-[100vh]'>
           <div data-aos="fade-up" className='w-full h-[100vh] mb-28 px-3'>
-            <div className='flex justify-around gap-3 mb-6'>
-              <div className='flex items-center gap-2 px-2 py-2 bg-whitegray rounded-3xl shadow-md'>
-                <FaSearch size={20} className='hover:scale-110 hover:opacity-40'/>
-                <input type='text' name='search' placeholder=' Search Your Appliance'
-                 className='p-2 bg-whitegray outline-none text-kleinblue'/>
-                <FaMicrophone size={20} className='hover:scale-110 hover:opacity-40'/>
-              </div>
 
-              <div className='flex items-center gap-2'>
-                <FaCamera size={20} className='hover:opacity-40'/>
-                <FaHeart size={20} className='hover:text-red hover:scale-110'/>
-              </div>
-            </div>
+            <div className='w-[100%] h-[10vh]'></div>
 
              <p className='font-semibold text-lg mb-2'>Top Selling Brands</p>
 

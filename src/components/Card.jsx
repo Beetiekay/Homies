@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import data from './Data'
+import { FaCamera, FaHeart, FaMicrophone, FaSearch } from 'react-icons/fa';
 
 const Card = () => {
   const [filter, setFilter] = useState('');
@@ -13,6 +14,23 @@ const Card = () => {
       )
     });
   return (
+    <div>
+      {/* search */}
+         <div className='flex justify-around gap-3 mb-6 absolute top-0'>
+        <div className='flex items-center gap-2 px-2 py-2 bg-whitegray rounded-3xl shadow-md'>
+            <FaSearch size={20} className='hover:scale-110 hover:opacity-40'/>
+            <input type='text' name='search' placeholder=' Search Your Appliance'
+            value={filter}
+            onChange={searchText.bind(this)}
+             className='p-2 bg-whitegray outline-none text-kleinblue'/>
+            <FaMicrophone size={20} className='hover:scale-110 hover:opacity-40'/>
+          </div>
+          <div className='flex items-center gap-2'>
+            <FaCamera size={20} className='hover:opacity-40'/>
+            <FaHeart size={20} className='hover:text-red hover:scale-110'/>
+          </div>
+        </div>
+        {/* search */}
     <div className='grid grid-cols-3 gap-3'>
        {dataSearch.map((item, index) =>{
          return(
@@ -34,6 +52,7 @@ const Card = () => {
               </div>
             )
           })}
+    </div>
     </div>
   )
 }
